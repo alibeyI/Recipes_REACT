@@ -10,6 +10,9 @@
     min-width: 40%;
 
 }
+.tit{
+    text-align: center;
+}
 
 .parag{
     display: flex;   

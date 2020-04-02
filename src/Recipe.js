@@ -6,7 +6,7 @@ const Recipe = ({title,calories,img,ingredients})=>{
     return(
 
         <div className={style.recipe}>
-            <h1 >{title}</h1>
+            <h1 className={style.tit} >{title}</h1>
             <ol className={style.orderlist}>
                 {ingredients.map(ingredient=>(
                     <li key={ingredient.text} className={style.parag}>{ingredient.text}</li>
